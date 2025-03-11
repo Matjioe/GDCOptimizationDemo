@@ -92,7 +92,7 @@ Material:
     - Vector1_2A455339: 0.5
     - Vector1_5A9E5888: 0
     - Vector1_CD9CB9E8: 0.1
-    - Vector1_F5DCAAE8: 0.683
+    - Vector1_F5DCAAE8: 0.67
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
@@ -117,7 +117,7 @@ Material:
     - _Glossiness: 0.5
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metal: 0.219
+    - _Metal: 0.7
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
