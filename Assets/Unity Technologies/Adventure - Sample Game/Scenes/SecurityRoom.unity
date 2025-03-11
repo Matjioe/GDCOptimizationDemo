@@ -2173,6 +2173,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 435254, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 435254, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.56
+      objectReference: {fileID: 0}
     - target: {fileID: 447264, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.01
@@ -2198,12 +2206,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 0b7d9f71cc02831458a0dd18937e4beb, type: 2}
     - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_Range
+      value: 2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_Intensity
-      value: 47.746483
+      value: 59.162197
       objectReference: {fileID: 0}
     - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_LightUnit
@@ -2220,6 +2232,14 @@ PrefabInstance:
     - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 10806928, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_UseColorTemperature
@@ -2642,6 +2662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000010402418588, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000010402418588, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
       objectReference: {fileID: 0}
@@ -2688,7 +2713,7 @@ PrefabInstance:
     - target: {fileID: 108000010484819618, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 108000010484819618, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -2734,6 +2759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000010661912292, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000010661912292, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -2797,6 +2827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000010888785628, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000010888785628, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
       objectReference: {fileID: 0}
@@ -2844,6 +2879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000011939573250, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000011939573250, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -2907,6 +2947,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000012421057008, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000012421057008, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
       objectReference: {fileID: 0}
@@ -2953,7 +2998,7 @@ PrefabInstance:
     - target: {fileID: 108000012698787654, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 108000012698787654, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -3049,6 +3094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000013698478822, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000013698478822, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -3162,6 +3212,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000013963697740, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000013963697740, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
       objectReference: {fileID: 0}
@@ -3184,6 +3239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LightUnit
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000013995331880, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 108000013995331880, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -3242,6 +3302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108000014128069300, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000014128069300, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
       objectReference: {fileID: 0}
@@ -3294,6 +3359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108000014219185086, guid: 8902cc0c7910bcd4ab3ccacb67555809,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108000014219185086, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
@@ -5104,7 +5174,7 @@ MonoBehaviour:
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 1
+  m_VolumetricDimmer: 16
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -5113,7 +5183,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 0.025
+  m_ShapeRadius: 0.3
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
